@@ -4,7 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 
-     buttons = [
+    
+    buttons = [
 
         [
 
