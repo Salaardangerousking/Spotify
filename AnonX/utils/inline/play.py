@@ -18,13 +18,7 @@ buttons = [
 
         [
 
-            
-
-        
-
-        
-
-            InlineKeyboardButton(
+               InlineKeyboardButton(
 
                 text="☆𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭☆", callback_data=f"add_playlist"
 
