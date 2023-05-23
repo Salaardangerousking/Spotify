@@ -28,13 +28,13 @@ import config
 
             InlineKeyboardButton(
 
-                text="𝐂𝐥𝐨𝐬𝐞😛", callback_data=f"close"
+                text="☆𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭☆", callback_data=f"add_playlist"
 
             ),
 
             InlineKeyboardButton(
 
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭❤",
+                text="☆𝐒𝐮𝐩𝐩𝐨𝐫𝐭☆",
 
                 url="https://t.me/royal_chatting_world",
 
@@ -50,7 +50,7 @@ import config
 
             InlineKeyboardButton(
 
-                text="𝐒𝐞𝐫𝐯𝐞𝐫🚀",
+                text="☆𝐒𝐞𝐫𝐯𝐞𝐫☆",
 
                 url="https://t.me/royal_official_server",
 
@@ -62,11 +62,21 @@ import config
 
             InlineKeyboardButton(
 
-                text="𝐎𝐰𝐧𝐞𝐫🏓", url="https://t.me/salaar_op"
+                text="☆𝐎𝐰𝐧𝐞𝐫☆", url="https://t.me/salaar_op"
 
             ),
 
            ],
+          
+        [
+
+          InlineKeyboardButton(
+
+                text="☆𝐂𝐥𝐨𝐬𝐞☆", callback_data=f"close"
+
+            ), 
+
+          ],
 
     ]
 
