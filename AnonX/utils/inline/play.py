@@ -3,7 +3,8 @@ import math
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
-buttons = [
+
+  buttons = [
       [
 
             InlineKeyboardButton(
@@ -38,9 +39,7 @@ buttons = [
 
           
 
-          
-
-            InlineKeyboardButton(
+                      InlineKeyboardButton(
 
                 text="☆𝐒𝐞𝐫𝐯𝐞𝐫☆",
 
@@ -68,8 +67,7 @@ buttons = [
 
             ), 
 
-          ],
-
+        ],
     ]
     return buttons
 
