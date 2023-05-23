@@ -3,11 +3,8 @@ import math
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
-
-    
-    buttons = [
-
-        [
+buttons = [
+      [
 
             InlineKeyboardButton(
 
