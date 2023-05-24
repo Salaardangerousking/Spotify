@@ -76,18 +76,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/daa81007ca60606c36ed2.mp4")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/a09c46cb92e6cd1965a97.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/daa81007ca60606c36ed2.mp4",
+    "https://graph.org/file/a09c46cb92e6cd1965a97.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/daa81007ca60606c36ed2.mp4"
+PLAYLIST_IMG_URL = "https://graph.org/file/a09c46cb92e6cd1965a97.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/daa81007ca60606c36ed2.mp4"
+GLOBAL_IMG_URL = "https://graph.org/file/a09c46cb92e6cd1965a97.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/daa81007ca60606c36ed2.mp4"
+STATS_IMG_URL = "https://graph.org/file/a09c46cb92e6cd1965a97.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/daa81007ca60606c36ed2.mp4"
+            PING_IMG_URL = "https://graph.org/file/a09c46cb92e6cd1965a97.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/daa81007ca60606c36ed2.mp4"
+            START_IMG_URL = "https://graph.org/file/a09c46cb92e6cd1965a97.jpg"
