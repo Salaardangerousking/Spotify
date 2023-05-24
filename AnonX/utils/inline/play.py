@@ -82,7 +82,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="✯𝐂𝐥𝐨𝐬𝐞✯", callback_data=f"close"
+                text="✯𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭✯", callback_data=f"add_playlisy"
 
             ),
 
@@ -122,7 +122,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
            ],
 
-    ]
+        [
+            InlineKeyboardButton(
+                
+                text="✯𝐂𝐥𝐨𝐬𝐞✯", callback_data=f"close"
+
+            ),
+    ],
+        ]
 
     return buttons
 
