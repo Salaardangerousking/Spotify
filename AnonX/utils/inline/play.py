@@ -82,7 +82,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="✯𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭✯", callback_data=f"add_playlist"
+                text="✯𝐂𝐥𝐨𝐬𝐞✯", callback_data=f"close"
 
             ),
 
@@ -120,27 +120,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             ),
 
-            
-
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="✯𝐂𝐥𝐨𝐬𝐞✯", callback_data=f"close"
-
-            )
-
-        ],
+           ],
 
     ]
 
-   
+    return buttons
 
-     return buttons
-
-       def telegram_markup_timer(_, chat_id, played, dur):
+def telegram_markup_timer(_, chat_id, played, dur):
 
     played_sec = time_to_seconds(played)
 
