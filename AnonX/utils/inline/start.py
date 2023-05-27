@@ -36,21 +36,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="☆𝐇𝐞𝐥𝐩☆", callback_data="settings_back_helper"
+                text="✭ ʜᴇʟᴘ ✭", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="☆𝐒𝐮𝐩𝐩𝐨𝐫𝐭☆", url=config.SUPPORT_GROUP
+                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="☆𝐎𝐰𝐧𝐞𝐫☆", user_id=OWNER
+                text="✭ ᴏᴡɴᴇʀ ✭", user_id=OWNER
             )
         ],
         [
         InlineKeyboardButton(
 
-                text="☆𝐒𝐞𝐫𝐯𝐞𝐫☆",
+                text="✭ ᴜᴘᴅᴀᴛᴇs ✭",
 
                 url="https://t.me/royal_official_server",
 
